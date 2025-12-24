@@ -2,6 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>A limitação de um mundo cibernético</title>
 
     <style>
@@ -73,7 +74,35 @@
             font-size: 2.3rem;
             letter-spacing: 1px;
         }
+/* Ajuste geral para mobile */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
 
+  .container, .card, main {
+    width: 100%;
+    max-width: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  h2, h3 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    text-align: justify;
+  }
+}
         .origens {
             text-align: center;
             font-size: 0.95rem;
